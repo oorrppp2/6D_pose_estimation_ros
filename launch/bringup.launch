@@ -1,0 +1,4 @@
+<launch>
+	<node name="pose_estimator" type="demo_live.py" pkg="pose_estimation" output="screen" respawn="true"/>
+	<rosparam command="load" file="$(find pose_estimation)/config/particle_filter.yaml"/>
+</launch>

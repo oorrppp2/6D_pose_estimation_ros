@@ -1,0 +1,5 @@
+visualization: true
+gaussian_std: 0.1
+max_iteration: 30
+tau: 0.1
+num_particles: 360
